@@ -16,9 +16,10 @@ jobs:
     env:
       # MONGODB_CONNECTION_PROTOCOL: mongodb+srv
       # MONGODB_CONNECTION_PROTOCOL: mongodb
-      MONGODB_CONNECTION_PROTOCOL: 127.0.0.1:27017
-      #MONGODB_CLUSTER_ADDRESS: cluster0.ztls0.mongodb.net
-      MONGODB_CLUSTER_ADDRESS: mongodb
+      MONGODB_CONNECTION_PROTOCOL: mongodb
+      # MONGODB_CLUSTER_ADDRESS: cluster0.ztls0.mongodb.net
+      # MONGODB_CLUSTER_ADDRESS: mongodb
+      MONGODB_CLUSTER_ADDRESS: 127.0.0.1:27017
       MONGODB_USERNAME: root
       MONGODB_PASSWORD: example
       PORT: 8080
